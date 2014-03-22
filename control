@@ -1,0 +1,10 @@
+Package: ws.hbang.controlundim
+Name: ControlUndim
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Undim Control Center while changing brightness
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Support: http://cydia.hbang.ws/status#controlundim
+Section: Tweaks
