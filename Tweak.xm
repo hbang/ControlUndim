@@ -14,7 +14,7 @@ UIView *dimmingView;
 	UIViewController *viewController = MSHookIvar<UIViewController *>([%c(SBControlCenterController) sharedInstance], "_viewController");
 
 	containerView = MSHookIvar<UIView *>(viewController, "_containerView");
-	dimmingView = containerView.subviews[0];
+	dimmingView = MSHookIvar<UIView *>(containerView, "_darkeningView");
 
 	[UIView animateWithDuration:kHBCUAnimationDuration animations:^{
 		dimmingView.alpha = 0;
