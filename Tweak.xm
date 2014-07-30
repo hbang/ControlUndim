@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <SpringBoard/SBControlCenterController.h>
 
-static NSTimeInterval const kHBCUAnimationDuration = 0.3;
+static NSTimeInterval const kHBCUAnimationDuration = 0.2;
 
 UIView *containerView;
 UIView *dimmingView;
